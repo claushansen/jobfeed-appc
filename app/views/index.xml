@@ -1,0 +1,25 @@
+<Alloy>
+	<Window title="Seneste jobs" class="vgroup container">
+		<ListView defaultItemTemplate="jobtemplate" class="buffer" onItemclick="onItemClick">
+			
+		<!-- The Templates tag sets the ListView's templates property -->
+            <Templates>
+
+                <!-- Define your item templates within the Templates tags or use the
+                     Require tag to include a view that only contains an ItemTemplate -->
+
+                <ItemTemplate name="jobtemplate" class="vgroup jobitem">
+                    <View id="listbuffer" class="vgroup buffer">
+                    <Label bindId="Headline" class="h3 joblist-headline" />                   
+                    <Label bindId="Body" class="normal-text joblist-body" />
+                    <Label bindId="Details" class="small-text joblist-details info" />   
+                    </View>                 
+                </ItemTemplate>
+
+            </Templates>
+            <ListSection id="joblist"></ListSection>
+            
+            </ListView>
+		<Label id="label">Hello, World</Label>
+	</Window>
+</Alloy>

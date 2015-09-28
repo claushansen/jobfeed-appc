@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container" title="Job Details">
+	<View class="vgroup">
+		<Label id="jobheadline" />
+		
+		<Module id="mapview" module="ti.map" method="createView" platform="android,ios,windows" class='no-touch top' />
+		
+		<Button id="gotobtn" class="info" onClick="onClickWebBtn">Gå til hjemmeside</Button>
+	</View>
+	</Window>
+</Alloy>

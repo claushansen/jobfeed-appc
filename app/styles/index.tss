@@ -1,0 +1,29 @@
+".container": {
+	backgroundColor:"#C41230"
+}
+,
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+},
+".jobitem":{
+	backgroundColor:"white",
+	top: 10,
+},
+".joblist-headline":{
+	left:0
+	
+},
+".joblist-details":{
+	top:10,
+	left:0
+	
+}
+
